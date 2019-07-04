@@ -1,0 +1,25 @@
+.full-profile {
+  padding: 24px;
+  display: flex;
+  width: 100%;
+  min-height: calc(100vh - 60px);
+  margin-top: 60px;
+  &__sidebar {
+    width: 350px;
+    background-color: $Main-pale-lilac;
+    .infocompany__header {
+      border-top: none;
+    }
+  }
+  &__body {
+    margin-left: 12px;
+    overflow-y: auto;
+    width:100%;
+
+    .lk__company__map {
+      width: 100%;
+      height: 235px;
+      border-bottom: 1px solid #c7c7d4;
+    }
+  }
+}

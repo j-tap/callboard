@@ -1,0 +1,8 @@
+{
+    "/js/client.js": "/js/client.js",
+    "/css/client.css": "/css/client.css",
+    "/css/admin.css": "/css/admin.css",
+    "/js/admin.js": "/js/admin.js",
+    "/js/vendor.js": "/js/vendor.js",
+    "/js/manifest.js": "/js/manifest.js"
+}

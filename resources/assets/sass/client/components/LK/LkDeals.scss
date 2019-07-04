@@ -1,0 +1,110 @@
+
+  .deal__box,.supplier-box {
+    min-width: 980px;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.24);
+    background-color: $Main-pale-lilac;
+    margin-bottom: 12px;
+
+  }
+  .deal__info {
+    padding: 32px 20px;
+    width: 220px;
+    border-right: 1px solid $Graph-clear-blue;
+    span {
+      margin-right: 10px;
+      width: 25px;
+    }
+  }
+
+  .supplier-box__info{
+    width: 220px;
+    border-right: 1px solid $Graph-clear-blue;
+    span {
+      margin-right: 10px;
+      width: 25px;
+    }
+    &-title{
+      font-family: "Roboto";
+      font-size: 15px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: $Main-text-purplish-grey;
+
+    }
+    .supplier-box__info-avatar{
+      margin-right: 12px;
+    }
+    .supplier-box__info-item{
+      padding: 20px 12px;
+      &:nth-child(even){
+        background-color: $List-color;
+
+      }
+    }
+
+  }
+  .supplier-box__body{
+    padding: 20px;
+    position: relative;
+    &-favorite{
+      top:20px;
+      right: 20px;
+    }
+    &-desc{
+      margin-top:36px;
+    }
+  }
+  .deal__body {
+    padding: 32px 20px;
+    //ToDo Найти другое решение max-width?
+    max-width:calc(100% - 220px);
+
+    //ToDo Вернуть ширину по вычислению, если будут проблемы со сделкой
+    //width: 100%;
+
+    .flex-row{
+      width: 100%;
+    }
+    .deal__body__desc {
+      padding-top: 18px;
+    }
+  }
+  .deal__box__tags,.supplier-box__body-tags {
+    margin-top: 30px;
+    width: auto;
+    max-width: 100%;
+    position: relative;
+    &:after{
+      position: absolute;
+      content: '';
+      top: 0;
+      right: 0;
+      width: 30px;
+      height: 100%;
+      z-index: 5;
+      background: linear-gradient(to right,rgba(252, 252, 255, 0), rgba(252, 252, 255, 1) 100%);
+    }
+  }
+  .deal__tag {
+    height: 32px;
+    white-space: nowrap;
+    padding: 0 16px;
+    border: solid 1px $Main-blue;
+    border-radius: 3px;
+    margin-right: 6px;
+    &:last-child{
+      margin-right: 0;
+    }
+    font-family: "Lato";
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: $Graph-clear-blue;
+  }

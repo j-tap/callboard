@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="36px" viewBox="0 0 30 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>Marker fav en</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Slices" transform="translate(-1884.000000, -696.000000)">
+            <g id="Marker-fav-en" transform="translate(1884.000000, 696.000000)">
+                <path d="M29.4545456,14.7272726 C29.4545456,26.1818181 14.7272728,36 14.7272728,36 C14.7272728,36 0,26.1818181 0,14.7272726 C1.21200803e-07,6.5936245 6.59362472,-3.63345719e-16 14.7272728,0 C22.8609209,3.63345719e-16 29.4545455,6.5936245 29.4545456,14.7272726 Z M14.7272728,19.6363635 C17.4384889,19.6363635 19.6363638,17.4384887 19.6363638,14.7272726 C19.6363638,12.0160565 17.4384889,9.81818166 14.7272728,9.81818166 C12.0160568,9.81818166 9.81818188,12.0160565 9.81818188,14.7272726 C9.81818188,17.4384887 12.0160568,19.6363635 14.7272728,19.6363635 Z" id="Combined-Shape-Copy-5" fill="#1A89FE"></path>
+                <circle id="Oval-path" fill="#F7F8FC" cx="14.7272728" cy="14.7272726" r="4.90909094"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

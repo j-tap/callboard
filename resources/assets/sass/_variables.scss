@@ -1,0 +1,190 @@
+$line-height-base: 1.6;
+$white: #fff;
+$Graph-yellow: #ffcd38;
+$Graph-orange: #ff9e1a;
+$Graph-clear-blue: #1a89ff;
+$Graph-bright-cyan: #4fe4fd;
+$Graph-bright-sky-blue: #27c4fb;
+$Main-blue: #1a89fe;
+$Main-red: #ff564b;
+$Hover-water-blue: #146dcb;
+$Main-pale-lilac: #fcfcff;
+//$Hover-black: #e2e2e5;
+$Hover-black: #f5f5ff;
+$Hover-dodger-blue: #36b9ff;
+$hover-white: #ffffff;
+$Main-text-purplish-grey: #797780;
+$Main-cool-green: #47d162;
+$Hover-navpanel-pale-grey: #e9e9f9;
+$Main-press-orangey-yellow: #ffb715;
+$main-sunflower: #ffbf0f;
+$input-resting: #d8d8d8;
+$List-color: #f6f6f9;
+$Main-nav: #f5f5ff;
+$News-panel: #f2f2f9;
+$dodger-blue: #38beff;
+// $input-green-active: #69f0ae;
+$input-green-active: #79dc76;
+$checkbox-green: #79dc76;
+$input-placeholder: #a4d4fb;
+
+:root {
+  --white: #fff;
+  --Graph-yellow: #ffcd38;
+  --Graph-orange: #ff9e1a;
+  --Graph-clear-blue: #1a89ff;
+  --Graph-bright-cyan: #4fe4fd;
+  --Graph-bright-sky-blue: #27c4fb;
+  --Main-blue: #1a89fe;
+  --Main-red: #ff564b;
+  --Hover-water-blue: #146dcb;
+  --Main-pale-lilac: #fcfcff;
+  --Hover-black: #e2e2e5;
+  --Hover-dodger-blue: #36b9ff;
+  --hover-white: #ffffff;
+  --Main-text-purplish-grey: #797780;
+  --Main-cool-green: #47d162;
+  --Hover-navpanel-pale-grey: #e9e9f9;
+  --Main-press-orangey-yellow: #ffb715;
+  --main-sunflower: #ffbf0f;
+  --input-resting: #d8d8d8;
+  --List-color: #f6f6f9;
+  --Main-nav: #f5f5ff;
+  --News-panel: #f2f2f9;
+  --dodger-blue: #38beff;
+  // --input-green-active: #69f0ae;
+  --input-green-active: #79dc76;
+  --checkbox-green: #79dc76;
+  --input-placeholder: #a4d4fb;
+}
+
+/* 			NEW TEMPLATE		 */
+
+$grid-breakpoints: (
+	xs: 0,
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px,
+	xxl: 1340px
+);
+
+$container-max-widths: (
+	sm: 540px,
+	md: 720px,
+	lg: 960px,
+	xl: 1130px
+) !default;
+
+// Body
+$body-bg: #fff;
+$body-bg-gray: #f1f1f1;
+$body-color: #0b0c0c;
+$color-label: #999;
+
+// Typography
+$font-family-sans-serif: -apple-system, "Roboto", sans-serif;
+//$font-family-monospace: "Courier New", monospace;
+$font-size-base: 1.6rem;
+$line-height-base: 1.2;
+
+// Colors
+$primary: #0071bc;
+$secondary: #707070;
+$success: #85db4b;
+$info: #b2daf5;
+$warning: #f7ac56;
+$danger: #ff564b;
+$light: #cfcccc;
+$dark: #202020;
+$black: #000;
+$white: #fff;
+$purple: #990099;
+
+$text-gray: $secondary;
+$light-gray: #e6e9ec;
+$gray: #c1c1c1;
+$text-gray-bg: #819191;
+$blue-light: #d2edff;
+
+// Based
+$border-width: 0.1rem;
+$border-form: 0.2rem solid $primary;
+$grid-gutter-width: 1.4rem;
+
+// Spaces
+$base-space: 2.6rem;
+
+// Rounded
+$enable-rounded: true;
+$border-radius: .5rem;
+$border-radius-lg: .5rem;
+$border-radius-sm: .5rem;
+$border-radius-xs: .5rem;
+
+// Shadows
+$box-shadow-fx: rgba(45, 45, 45, 0.05) 0px 2px 2px,
+  rgba(49, 49, 49, 0.05) 0px 4px 4px, rgba(42, 42, 42, 0.05) 0px 8px 8px,
+  rgba(32, 32, 32, 0.05) 0px 16px 16px, rgba(49, 49, 49, 0.05) 0px 32px 32px,
+  rgba(35, 35, 35, 0.05) 0px 64px 64px;
+
+$box-shadow-sm: 0 0.2rem 0.4rem 0 rgba($black, 0.1);
+$box-shadow: 0 0.3rem 0.6rem 0 rgba($black, 0.1);
+$box-shadow-lg: 0 0.4rem 0.8rem 0 rgba($black, 0.1);
+
+// Transitions
+$transition-base: all 0.2s ease-in-out;
+$transition-fade: opacity 0.15s linear;
+$transition-collapse: height 0.35s ease;
+$transition-card: box-shadow 0.35s ease, transform 0.25s ease;
+
+// Forms
+$input-color: $body-color;
+$border-color: $light;
+$input-btn-line-height: 1.6;
+$custom-control-gutter: 2.5rem;
+$custom-control-indicator-size: 2rem;
+$input-placeholder-color: $gray;
+$form-group-margin-bottom: 2rem;
+$input-font-size: 1.4rem;
+//$input-btn-font-size: $font-size-base;
+// $input-btn-padding-x-sm: 1rem;
+// $input-btn-padding-x: 2rem;
+// $input-btn-padding-x-lg: 3rem;
+
+// App custom
+$color-title: $text-gray;
+$height-header: 5.2rem;
+$height-header-sm: 9rem;
+$height-footer: 19vh;
+$height-footer-md: 29vh;
+$height-footer-sm: 29vh;
+$height-footer-xs: 29vh;
+$header-main-space: 2rem;
+$header-main-space-sm: 1rem;
+$height-search-filter: 4rem;
+$height-gift-height: 4rem;
+$height-gift-height-sm: 5.3rem;
+
+$main-padding-top: ($height-header + $header-main-space);
+$main-padding-top-sm: ($height-header-sm + $header-main-space-sm);
+$main-padding-top-filter: ($main-padding-top + $height-search-filter);
+$main-padding-top-filter-sm: $main-padding-top-sm;
+
+$header-top-popover: ($height-header - 1rem);
+$header-top-popover-sm: ($height-header-sm - 1rem);
+
+// Voply
+$voply-width: 30rem;
+
+// Spinner
+$spinner-border-width: 0.2rem;
+
+// Card
+$card-spacer-x: 1.5rem;
+$card-spacer-y: 1.5rem;
+
+// Modal
+$modal-inner-padding: 2.5rem;
+
+$border-aside: 0.1rem solid $border-color;

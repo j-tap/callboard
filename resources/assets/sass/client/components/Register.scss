@@ -1,0 +1,98 @@
+.wrapp__reg{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-image: linear-gradient(to top, #38beff, #1a89ff);
+}
+.wrapp__reg-bubble{
+width: 100%;
+height: 100%;
+background-repeat: no-repeat;
+background-size: 100%;
+background-position: top;
+}
+.container__flex-full{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.box{
+  display: block;
+  width: auto;
+  height: auto;
+}
+a {
+    color: white;
+}
+.account__type-box{
+  width: auto;
+  height: auto;
+  display: flex;
+  .icon__box{
+    width: 80px;
+    height: 80px;
+    margin: 28px auto;
+    display:flex;
+    border-radius: 50%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: .3s;
+    &:hover{
+      transition: .3s;
+      box-shadow: 0 4px 20px 4px rgba(0, 0, 0, .2);
+    }
+  }
+  .icon__box-suplier{
+    background-image: url('/../images/tamtem/register/suplier.png');
+  }
+  .icon__box-customer{
+    background-image: url('/../images/tamtem/register/customer.png');
+  }
+}
+.reg__form {
+    position: relative;
+    padding: 0 50px;
+    .flex-row__col {
+        width: 50%;
+        padding: 0 50px;
+    }
+}
+.consent {
+    padding: 50px 0;
+    .flex-row__col {
+        width: auto;
+        padding: 0;
+    }
+}
+.form__box{
+max-width: 1200px;
+margin: 0 auto;
+}
+.reg__title-box{
+  margin: 2.33rem;
+}
+.form__row {
+    padding: 0 50px;
+}
+.consent {
+    padding: 50px 0;
+}
+.link__back {
+    position: absolute;
+    left: 24px;
+    top: 24px;
+    span {
+        margin: 0 12px;
+    }
+}
+.icon__letter {
+    padding-top: 50px;
+    // padding-top: 110px;
+}
+.icon__repeat {
+    margin-top: 80px;
+}
+.timer {
+    margin-top: 30px;
+}

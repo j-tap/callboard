@@ -1,0 +1,16 @@
+.lk__accountedit {
+  overflow-y: auto;
+  padding: 18px 28px;
+  background-color: $hover-white;
+
+  .lk__accountedit__buttons {
+    margin: 72px 0;
+  }
+  .lk__accountedit__upload {
+    margin: 30px 15px 50px 15px;
+    width: auto;
+    span {
+      margin: 0 16px;
+    }
+  }
+}

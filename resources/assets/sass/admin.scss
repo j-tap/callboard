@@ -1,0 +1,63 @@
+@import '~nprogress/nprogress.css';
+@import '~admin-lte/bower_components/bootstrap/dist/css/bootstrap.css';
+@import '~admin-lte/bower_components/font-awesome/css/font-awesome.css';
+@import '~admin-lte/bower_components/Ionicons/css/ionicons.css';
+@import '~admin-lte/bower_components/datatables.net-bs/css/dataTables.bootstrap.css';
+
+@import '~admin-lte/dist/css/AdminLTE.css';
+@import '~admin-lte/dist/css/skins/_all-skins.css';
+@import '~admin-lte/plugins/iCheck/all.css';
+
+@import '~admin-lte/bower_components/morris.js/morris.css';
+@import '~admin-lte/bower_components/jvectormap/jquery-jvectormap.css';
+@import '~admin-lte/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.css';
+@import '~admin-lte/bower_components/bootstrap-daterangepicker/daterangepicker.css';
+
+
+.load-thumbnail {
+  label {
+    a {
+      cursor: pointer;
+    }
+  }
+}
+.ck-editor__editable{
+  height: 200px;
+}
+.frm-buttons {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.nprogress-container {
+  background: #ffffff;
+
+  position: absolute !important;
+  z-index: 1031;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 2px;
+}
+
+#nprogress .peg {
+  box-shadow: 0 0 10px #40a031, 0 0 5px #40a031;
+}
+
+#nprogress .spinner-icon {
+  border-top-color: #40a031;
+  border-left-color: #40a031;
+}
+
+.vue-treeselect__label {
+  font-weight: normal !important;
+}
+
+.m-message-container {
+  margin-top: 50px;
+}
+
+.remember-me {
+  padding-left: 20px;
+}

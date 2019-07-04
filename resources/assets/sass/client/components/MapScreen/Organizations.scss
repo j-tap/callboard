@@ -1,0 +1,39 @@
+.organizations {
+
+  .organizations__header {
+    padding: 14px 18px;
+  }
+  
+}
+
+.organizations__box {
+  cursor: pointer;
+  position: relative;
+  padding: 14px 18px;
+  transition: .3s;
+  background-color: white;
+
+  .organizations__box-avatar {
+    padding-right: 5px;
+  }
+
+  &:nth-child(even) {
+    background-color: $List-color;
+  }
+
+  &:hover {
+    transition: .3s;
+    background-color: rgba(26, 137, 254, .2);
+  }
+
+  .organizations__box__address {
+    padding-top: 5px;
+  }
+}
+
+.organizations__box__body {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+}

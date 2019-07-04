@@ -1,0 +1,125 @@
+
+.lk__company,.full-profile__body {
+  height: auto;
+  //min-width: 980px;
+  background-color: $hover-white;
+  .lk__company__header {
+    padding: 15px 28px;
+    border-bottom: 1px solid #e4e4f3;
+  }
+  .lk__company__info {
+    &-tags{
+      max-width: calc(100vw - 390px);
+      .lk__company__info-item{
+        padding: 0 28px;
+      }
+      .swiper-slide{
+        display:flex;
+        width: auto;}
+    }
+    &__offices-body{
+      .lk__company__info-item{
+        &:nth-child(even){
+          background-color: white;
+        }
+        &:nth-child(odd){
+          background-color: $List-color;
+        }
+      }
+    }
+  &__stock-body{
+    .lk__company__info-item{
+      &:nth-child(odd){
+        background-color: white;
+      }
+      &:nth-child(even){
+        background-color: $List-color;
+      }
+    }
+  }
+  }
+  .lk__company__info-item {
+    height: 50px;
+    padding: 0 50px;
+    background-color: white;
+    &:nth-child(even) {
+      background-color: $List-color;
+    }
+    .swiper-container{
+      width: 100%;
+    }
+  }
+  .lk__company__info__work {
+    cursor: pointer;
+  }
+  .lk__company__info__work-day {
+    width: 100%;
+    padding: 10px 50px;
+    border-bottom: 1px solid $List-color;
+  }
+  .lk__company__info-about {
+    padding: 20px 28px 0 28px;
+    .lk__company__info-about-text {
+      padding: 10px 0 16px 0;
+    }
+  }
+  .lk__company__info-media {
+    padding: 10px 28px;
+    .lk__company__info-media-video {
+      margin: 16px 0;
+      height: 402px;
+      width: 100%;
+      video{
+        height: 100%;
+        width: 100%;
+      }
+    }
+    .lk__company__info-media-photo {
+      width: 100%;
+      max-width: 33.3333%;
+      height: 172px;
+      margin-right: 8px;
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+  .lk__company__info-services {
+    padding: 10px 28px;
+  }
+  .lk__company__info-reviews {
+    padding: 10px 28px 0 28px;
+    margin-bottom: 50px;
+    .lk__company__info-reviews-box {
+      .lk__company__info-reviews-box-avatar {
+        margin-right: 20px;
+      }
+      padding: 10px 0;
+      border-bottom: 1px solid #c7c7d4;
+    }
+  }
+  h2 {
+    margin-bottom: 16px;
+  }
+}
+
+.lk__company-map {
+  width: 100%;
+  position: relative;
+  height: 235px;
+}
+
+.lk__company__info-icon {
+  width: 30px;
+  margin-right: 12px;
+}
+
+.lk__company__avatar {
+  margin-right: 20px;
+}
+

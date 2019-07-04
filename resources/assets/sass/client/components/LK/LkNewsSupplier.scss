@@ -1,0 +1,97 @@
+.lk__news {
+  padding: 24px;
+  overflow-y: auto;
+  background-color: $hover-white;
+  &-container{
+    display:flex;
+  }
+  .lk__news-box {
+    padding: 12px;
+    flex: 1 1 auto;
+    max-width: 33.333333%;
+    &-content{
+      border: 1px solid #e4e4f3;
+      padding: 12px;
+      height:100%;
+      width:100%;
+    }
+    .news__box__img {
+      width: 100%;
+      max-height: 250px;
+      position: relative;
+      overflow: hidden;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+      .news__box__img-panel {
+        z-index: 10;
+        position: absolute;
+        bottom: -44px;
+        height: 44px;
+        width: 100%;
+        background-color: #2a2828;
+        transition: .3s;
+        .v-input--selection-controls .v-input__slot {
+          margin: 0;
+        }
+        .button-link {
+          padding: 7px 0;
+          width: 70px;
+          height: 30px;
+          transition: .3s;
+          box-sizing: content-box;
+          &:hover {
+            transition: .3s;
+            background-color: rgba(255, 255, 255, .1);
+          }
+        }
+      }
+      &:hover {
+        .news__box__img-panel {
+          bottom: 0;
+          transition: .3s;
+        }
+      }
+    }
+    .news__box__desc-heading {
+      margin-top: 24px;
+      font-family: "Lato";
+      font-size: 20px;
+      font-weight: 600;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: $Main-text-purplish-grey;
+    }
+    .news__box-desc-body {
+      word-break: break-word;
+      margin-top: 8px;
+      font-family: "Roboto Slab";
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: $Main-text-purplish-grey;
+    }
+    .news__box__action {
+      margin: 17px 0;
+      p{
+        font-family: "Lato";
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: $Graph-clear-blue;
+      }
+      span{
+        margin: 0 12px;
+      }
+    }
+  }
+}

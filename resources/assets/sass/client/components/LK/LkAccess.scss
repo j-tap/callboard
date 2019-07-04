@@ -1,0 +1,125 @@
+.user-access {
+  width: 100%;
+  overflow-y: auto;
+  background-color: rgba(11, 11, 11, 0.6);
+  padding: 72px 24px;
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 998;
+  &__box {
+    flex-wrap: wrap;
+   &-row{
+     &-border{
+       border-bottom:1px solid #d8d8d8;
+     }
+   }
+    &-left, &-right {
+      display: flex;
+      width: 100%;
+    }
+  }
+  .b-top-grey {
+    border-top: 1px solid #d8d8d8;
+  }
+  .b-bottom-grey {
+    border-bottom: 1px solid #d8d8d8;
+  }
+  .flex-row {
+    flex-shrink: 0;
+  }
+  .user-access__close {
+    padding: 30px 0;
+    p {
+      font-family: "SF UI Text";
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      text-align: center;
+      color: $hover-white;
+    }
+    span {
+      margin-left: 16px;
+    }
+  }
+  .user-access__container {
+    background-color: $Main-pale-lilac;
+    height: 100%;
+    width: 100%;
+    &__user-info {
+      padding: 50px 33px;
+      .flex-row__col {
+        margin-right: 44px;
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+    &__action {
+      margin: 50px 0;
+      .btn-lg {
+        width: 350px;
+      }
+    }
+    &-body {
+      header {
+        height: 56px;
+        padding: 0 33px;
+        border-top: 1px solid #d8d8d8;
+        border-bottom: 1px solid #d8d8d8;
+        background-color: #f5f5ff;
+        span {
+          font-family: "Lato";
+          font-size: 16px;
+          text-transform: uppercase;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: $Main-text-purplish-grey;
+        }
+      }
+      .user-access__row {
+        flex-shrink: 0;
+        height: 50px;
+        padding: 0 33px;
+        display: flex;
+        width: 100%;
+        //&:nth-child(odd) {
+        //  background-color: $List-color;
+        //}
+        span.flex-box {
+          width: 210px;
+          margin-right: 16px;
+          font-family: "Lato";
+          font-size: 16px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: normal;
+          color: $Main-text-purplish-grey;
+        }
+      }
+      .v-input--selection-controls {
+        .v-input__slot {
+          margin: 0;
+          .theme--light {
+            .v-input--switch__track {
+              color: #e4e4f3;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.user-access__box-row {
+  &:nth-child(odd) {
+    background-color: $List-color;
+  }
+}

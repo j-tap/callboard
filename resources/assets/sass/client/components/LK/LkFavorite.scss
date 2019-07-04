@@ -1,0 +1,35 @@
+.lk__favourite {
+  .lk__favourite__header {
+    height: 56px;
+    padding: 0 30px;
+    background-color: $hover-white;
+    span {
+      margin: 0 15px;
+    }
+    .lk__favourite__filter {
+      position: relative;
+      width: auto;
+      height: 100%;
+      transition: .3s;
+      cursor: pointer;
+      &:hover {
+        transition: .3s;
+        background-color: rgba(26, 137, 255, .5);
+      }
+      .lk__favourite__filter-box {
+        overflow-y: auto;
+        position: absolute;
+        top: 56px;
+        width: inherit;
+        height: 50vh;
+        background-color: orange;
+        .lk__favourite__filter-box-item {
+
+        }
+      }
+    }
+  }
+  .lk__favourite__container {
+    margin-top: 12px;
+  }
+}

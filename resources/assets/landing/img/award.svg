@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36.286" height="55.307" viewBox="0 0 36.286 55.307">
+    <defs>
+        <style>
+            .cls-1,.cls-3{fill:none}.cls-2{clip-path:url(#clip-path)}.cls-3{stroke:#c1c1c1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:3px}
+        </style>
+        <clipPath id="clip-path">
+            <path d="M0 0h36.286v55.307H0z" class="cls-1"/>
+        </clipPath>
+    </defs>
+    <g id="award" class="cls-2">
+        <circle id="Oval" cx="16.643" cy="16.643" r="16.643" class="cls-3" transform="translate(1.5 1.5)"/>
+        <path id="Shape" d="M2.877.024L0 21.684l11.888-7.133 11.888 7.133L20.9 0" class="cls-3" transform="translate(6.255 32.123)"/>
+    </g>
+</svg>

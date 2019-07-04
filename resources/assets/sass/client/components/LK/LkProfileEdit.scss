@@ -1,0 +1,57 @@
+.lk__profileedit {
+  position: relative;
+  overflow-y: auto;
+  padding: 18px 28px;
+  background-color: $hover-white;
+  &-avatar {
+    position: relative;
+    overflow: hidden;
+    &:hover {
+      .lk__profileedit-avatar__tools {
+        transform: scale(1);
+        transition: .3s;
+      }
+    }
+    &__tools {
+      cursor: pointer;
+      position: absolute;
+      z-index: 555;
+      top: 0;
+      transform: scale(0);
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, .5);
+      transition: .3s;
+      button {
+        height: 100%;
+        width: 100%;
+        span {
+          height: 40px;
+          width: 40px;
+          border-radius: 50%;
+          transition: .3s;
+          &:hover {
+            transition: .3s;
+            background-color: rgba(255, 255, 255, .25);
+          }
+        }
+      }
+    }
+  }
+
+  .lk__profileedit__buttons {
+    margin: 72px 0;
+  }
+  .lk__profileedit__upload {
+    margin: 25px 15px 25px 15px;
+    width: auto;
+    padding: 10px;
+    span {
+      margin: 0 16px;
+    }
+  }
+}

@@ -1,0 +1,355 @@
+$inactive-btn: #b6b3b8;
+button {
+  outline: none;
+}
+
+
+.link-hover {
+  height: 40px;
+  width: 200px;
+  transition: .3s;
+  &:hover {
+    transition: .3s;
+    opacity: .7;
+  }
+}
+
+.button-link {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.button {
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+}
+
+.btn-inactive{
+  background-color: $inactive-btn !important;
+}
+.btn__deal {
+  border-radius: 20px;
+  height: 37px;
+  background-size: 150%;
+  &:hover {
+    transition: .3s;
+    background-position: right center;
+  }
+  &-xs {
+    width: 157px;
+  }
+  &-orange {
+    transition: .3s;
+    background-image: linear-gradient(to right, $Graph-yellow 30%, $Graph-orange 100%);
+  }
+  &-blue {
+    transition: .3s;
+    background-image: linear-gradient(to right, $dodger-blue 30%, $Graph-clear-blue 100%);
+  }
+  &-cyan {
+    transition: .3s;
+    background-image: linear-gradient(to right, #4fe3fe 0%, #41d8fd 33%, #37d0fc 66%, $Graph-bright-sky-blue 100%);
+  }
+  &-green {
+    transition: .3s;
+    background-image: linear-gradient(to right, #a3e105 33%, #7ad900 66%, #76d800 100%);
+  }
+  &-sm {
+    width: 180px;
+  }
+  p {
+    font-family: "Lato";
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: $hover-white;
+  }
+
+}
+
+.btn-absolute-center {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.btn__padding_lr-20 {
+  padding: 0 20px;
+}
+
+.btn__width-auto {
+  width: auto !important;
+}
+
+.btn__width-full {
+  width: 100%;
+}
+
+.btn__bottom {
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+
+.btn__border-red-round {
+  border: solid 1px $Main-red;
+  border-radius: 3px;
+  p {
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: $Main-red;
+  }
+  &:hover {
+    transition: 0.3s;
+    background-color: $Main-red;
+    p {
+      color: $hover-white;
+    }
+  }
+}
+
+.btn__border-blue-round {
+  border: solid 1px $Main-blue;
+  border-radius: 3px;
+  height: 40px;
+  width: 240px;
+  p {
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: $Main-blue;
+  }
+  &:hover {
+    transition: 0.3s;
+    background-color: $Main-blue;
+    p {
+      color: $hover-white;
+    }
+  }
+}
+
+.btn__border-blue-sq {
+  border: solid 1px $Main-blue;
+  background-color: transparent;
+  p {
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: $Main-blue;
+  }
+  &:hover {
+    transition: 0.3s;
+    background-color: $Main-blue;
+    p {
+      color: $hover-white;
+    }
+  }
+}
+
+.btn__solid-blue-round {
+  background-color: $Main-blue;
+  border-radius: 3px;
+  height: 44px;
+  transition: 0.3s;
+  p {
+    font-family: "Lato";
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: $hover-white;
+  }
+  &:hover {
+    transition: 0.3s;
+    background-color: $Hover-water-blue;
+  }
+}
+
+.btn__solid-red-round {
+  background-color: $Main-red;
+  border-radius: 3px;
+  height: 44px;
+  transition: 0.3s;
+
+  p {
+    font-family: "Lato";
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: $hover-white;
+  }
+  &:hover {
+    transition: 0.3s;
+    background-color: #d1463e;
+  }
+}
+
+.btn__solid-white-round {
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: $hover-white;
+  border-radius: 3px;
+  height: 40px;
+  p {
+    font-family: "Lato";
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: $Graph-clear-blue;
+  }
+  &:hover {
+    transition: 0.3s;
+    background-color: $Main-blue;
+    p {
+      color: $hover-white;
+    }
+  }
+}
+
+.btn__solid-blue-sq {
+  background-color: $Main-blue;
+  transition: 0.3s;
+  p {
+    font-family: "Lato";
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f7f8fc;
+    color: $Main-pale-lilac;
+  }
+  &:hover {
+    transition: 0.3s;
+    background-color: $Hover-water-blue;
+  }
+  p {
+    color: $Main-pale-lilac;
+  }
+}
+
+.btn__solid-white-sq {
+  background-color: $Main-pale-lilac;
+  transition: 0.3s;
+  p {
+    font-family: "Lato";
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f7f8fc;
+    color: $Main-blue;
+  }
+  &:hover {
+    transition: 0.3s;
+    background-color: #e5e5e5;
+  }
+  p {
+    color: $Main-blue;
+  }
+}
+
+// ==========BUTTONS WEB==========
+
+.btn__web {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn__web-border {
+  border: solid 1px #cdcdcd;
+}
+
+.btn__web-fb {
+  background-color: #5788d0;
+  &:hover {
+    transition: 0.1s;
+    box-shadow: 0 0 10px 2px #5788d0;
+  }
+}
+
+.btn__web-vk {
+  background-color: #2c7fcf;
+  &:hover {
+    transition: 0.1s;
+    box-shadow: 0 0 10px 2px #2c7fcf;
+  }
+}
+
+.btn__web-okru {
+  background-color: #ff8f3e;
+  &:hover {
+    transition: 0.1s;
+    box-shadow: 0 0 10px 2px #ff8f3e;
+  }
+}
+
+// *********************
+.btn__close {
+  padding: 0 20px;
+}
+
+.btn__icon {
+  margin: 0 12px;
+}
+
+.btn-update {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  border-top: 1px solid $Graph-clear-blue;
+  border-bottom: 1px solid $Graph-clear-blue;
+  transition: width .1s linear;
+  animation: btnLoading 1s infinite linear;
+  animation-delay: .11s;
+  p {
+    display: none;
+  }
+  &:hover {
+    background-color: transparent;
+  }
+}
+
+@keyframes btnLoading {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

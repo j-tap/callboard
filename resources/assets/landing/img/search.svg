@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26.448" height="26.448" viewBox="0 0 26.448 26.448">
+    <defs>
+        <style>
+            .cls-1,.cls-3{fill:none}.cls-2{clip-path:url(#clip-path)}.cls-3{stroke:#0071bc;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10}
+        </style>
+        <clipPath id="clip-path">
+            <path d="M0 0h26.448v26.448H0z" class="cls-1"/>
+        </clipPath>
+    </defs>
+    <g id="Group_2" class="cls-2" data-name="Group 2">
+        <circle id="Oval" cx="11.31" cy="11.31" r="11.31" class="cls-3" transform="translate(.5 .5)"/>
+        <path id="Shape" d="M6.15 6.15L0 0" class="cls-3" transform="translate(19.798 19.798)"/>
+    </g>
+</svg>

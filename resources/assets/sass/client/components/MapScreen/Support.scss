@@ -1,0 +1,31 @@
+.support {
+    padding: 14px 18px;
+    flex-direction: column;
+    .description {
+        margin: 20px 0;
+    }
+    .form {
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
+    .submit {
+        cursor: pointer;
+        outline: none;
+        position: absolute;
+        bottom: 40px;
+        width: 100%;
+        height: 48px;
+        border: solid 1px $Main-blue;
+        background-color: $Main-pale-lilac;
+        transition: 0.3s;
+        &:hover {
+            transition: 0.3s;
+            background-color: $Main-blue;
+            .large-button {
+                color: $Main-pale-lilac;
+            }
+        }
+    }
+
+}

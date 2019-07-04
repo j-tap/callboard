@@ -1,0 +1,116 @@
+.tag {
+  height: 32px;
+  border-radius: 15px;
+  padding: 0 10px;
+  margin-right: 12px;
+  border: solid 1px #1a89fe;
+  border: solid 1px $Main-blue;
+  &:first-child {
+    margin-left: 14px;
+  }
+}
+
+.infocompany__header {
+  background-color: #f2f2f9;
+}
+
+.infocompany__body {
+  ul {
+    list-style: none;
+    li {
+      // padding: 16px 0 16px 14px;
+      a {
+        text-decoration: none;
+        display: block;
+        padding: 16px 0 16px 14px;
+      }
+    }
+  }
+}
+
+.infocompany__icon {
+  // padding: 0 14px;
+  width: 40px;
+}
+
+.infocompany__items {
+  height: 50px;
+  padding: 7px 14px !important;
+  background-color: $Main-pale-lilac;
+  &:nth-child(even) {
+    background-color: $List-color;
+  }
+}
+
+.infocompany__web-box {
+  margin-top: 14px;
+}
+
+.infocompany__tag-box {
+  padding: 16px 0;
+  background-color: $Main-pale-lilac;
+}
+
+.infocompany__web-tile {
+  width: 70px;
+  height: 30px;
+  &:hover {
+    box-shadow: 0 2px 11px 0 rgba(0, 0, 0, 0.2);
+  }
+  &.fb {
+    background-color: #5788d0;
+  }
+  &.vk {
+    background-color: #2c7fcf;
+  }
+  &.ok {
+    background-color: #ff8f3e;
+  }
+}
+.swiper-slide {
+  width: auto !important;
+}
+
+.slider__p-blue {
+  font-size: 9px;
+}
+
+.infocompany__h4-grey {
+  padding-right: 10px;
+}
+
+.infocompany__items-work-time .infocompany__icon {
+  align-items: normal;
+}
+
+.infocompany__items-work-time {
+  height: auto;
+  padding: 0 !important;
+}
+
+.work-time__item {
+  padding: 10px 14px 10px 24px;
+  border-bottom: solid 0.5px #e4e4f3;
+}
+
+.work-time__item-current {
+  span {
+    p {
+      color: $Main-blue !important;
+    }
+  }
+
+}
+
+.work-time__day {
+  width: auto;
+  display: flex
+}
+
+.tag {
+  height: 20px;
+}
+
+.swiper-container {
+  width: 100%;
+}

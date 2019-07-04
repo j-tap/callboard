@@ -1,0 +1,33 @@
+.category__h2-white {
+    margin-left: 30%;
+}
+.categories__container-full {
+    height: 60vh;
+}
+.categories__container-collapse {
+    height: 0;
+}
+.categories__container {
+  max-height: inherit;
+  display: flex;
+    input[type="text"] {
+        padding: 14px;
+        border: none;
+    }
+    .categories__header {
+        background-color: $Graph-clear-blue;
+        padding: 16px 0;
+        cursor: pointer;
+        user-select: none;
+    }
+}
+.tile__list {
+    list-style: none;
+    overflow-y: scroll;
+    flex-shrink: 1;
+    p {
+        max-width: 107px;
+        padding-bottom: 10px;
+    }
+}
+

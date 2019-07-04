@@ -1,0 +1,41 @@
+.lk__profile{
+padding: 18px 28px;
+  background-color: $hover-white;
+
+  .lk__profile__header{
+    padding-bottom: 15px;
+  }
+  .btn__web{
+    margin: 0 12px;
+  }
+  .lk__profile__avatar{
+    margin-right: 20px;
+  }
+  .lk__profile__info{
+    padding: 25px 0;
+    border-top: solid 1px #e4e4f3;
+    border-bottom: solid 1px #e4e4f3;
+    .flex-row__col{
+      margin-right: 5%;
+    }
+    span{
+      margin-right: 20px;
+    }
+  }
+  .lk__profile__person{
+    margin: 50px 0;
+    .flex-row__col{
+      width: 100%;
+      margin-right: 40px;
+    }
+  }
+  .lk__profile__buttons{
+    margin: 50px auto;
+    a{
+      margin: 0 20px;
+      & span{
+        margin-right: 10px;
+      }
+    }
+  }
+}

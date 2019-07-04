@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="68.889" height="71.559" viewBox="0 0 68.889 71.559">
+    <defs>
+        <style>
+            .cls-1,.cls-3{fill:none}.cls-2{clip-path:url(#clip-path)}.cls-3{stroke:#0071bc;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:2px}
+        </style>
+        <clipPath id="clip-path">
+            <path d="M0 0h68.889v71.559H0z" class="cls-1"/>
+        </clipPath>
+    </defs>
+    <g id="Component_8_1" class="cls-2" data-name="Component 8 – 1">
+        <g id="at-sign" transform="translate(42.594 25.029)">
+            <circle id="Oval" cx="5.059" cy="5.059" r="5.059" class="cls-3" transform="translate(7.589 7.589)"/>
+            <path id="Shape" d="M17.707 12.648v1.265a3.794 3.794 0 1 0 7.588 0v-1.265a12.647 12.647 0 1 0-4.958 10.042" class="cls-3"/>
+        </g>
+        <g id="phone-call" transform="translate(1.001 1)">
+            <path id="Shape-2" d="M22.626 26.468c-.077 0-.154 0-.23-.011a25.129 25.129 0 0 1-10.915-3.883 24.827 24.827 0 0 1-7.589-7.588A25.153 25.153 0 0 1 .01 4.021a2.529 2.529 0 0 1 2.517-2.756h3.819A2.541 2.541 0 0 1 8.851 3.44a16.221 16.221 0 0 0 .884 3.554 2.536 2.536 0 0 1-.569 2.669L7.56 11.269a20.249 20.249 0 0 0 7.589 7.589l1.606-1.606a2.528 2.528 0 0 1 2.669-.569 16.222 16.222 0 0 0 3.554.884 2.53 2.53 0 0 1 2.175 2.568v3.794a2.529 2.529 0 0 1-2.527 2.54zm-1.267-16.414l-4.996-4.996a6.3 6.3 0 0 1 4.995 4.991zm5.058-.013L16.363 0a11.383 11.383 0 0 1 10.054 10.038z" class="cls-3" data-name="Shape"/>
+        </g>
+        <g id="sunrise" transform="translate(13.507 45.265)">
+            <path id="Shape-3" d="M12.647 6.324A6.324 6.324 0 1 0 0 6.324" class="cls-3" data-name="Shape" transform="translate(7.588 13.912)"/>
+            <path id="Shape-4" d="M0 0v8.853" class="cls-3" data-name="Shape" transform="translate(13.912)"/>
+            <path id="Shape-5" d="M0 0l1.8 1.8" class="cls-3" data-name="Shape" transform="translate(4.072 10.396)"/>
+            <path id="Shape-6" d="M0 0h2.529" class="cls-3" data-name="Shape" transform="translate(0 20.235)"/>
+            <path id="Shape-7" d="M0 0h2.529" class="cls-3" data-name="Shape" transform="translate(25.294 20.235)"/>
+            <path id="Shape-8" d="M0 1.8L1.8 0" class="cls-3" data-name="Shape" transform="translate(21.955 10.396)"/>
+            <path id="Shape-9" d="M27.824 0H0" class="cls-3" data-name="Shape" transform="translate(0 25.294)"/>
+            <path id="Shape-10" d="M0 5.059L5.059 0l5.059 5.059" class="cls-3" data-name="Shape" transform="translate(8.853)"/>
+        </g>
+    </g>
+</svg>

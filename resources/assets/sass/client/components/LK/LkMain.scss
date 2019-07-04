@@ -1,0 +1,169 @@
+.wrapp__lk {
+  //width: 100%;
+  //height: 100vh;
+  display: flex;
+  //overflow-x: auto;
+  flex-direction: column;
+  background-color: #f6f5f9;
+}
+
+.wrapp__lk-bubble {
+  background: url('/../images/tamtem/BGcircles.png') top/100% no-repeat, linear-gradient(to bottom, $dodger-blue, $Graph-clear-blue) center no-repeat;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 777;
+  width: 100%;
+  height: 60px;
+  background-color: $Main-blue;
+  .logo {
+	margin-left: 24px;
+  }
+  .nav__list {
+	width: auto;
+	.nav__list__item {
+	  position: relative;
+	  height: 100%;
+	  width: 60px;
+	  &:hover {
+		background-color: rgba(255, 255, 255, 0.2);
+	  }
+	  &-notify {
+		position: absolute;
+		width: 6px;
+		height: 6px;
+		top: 17px;
+		right: 15px;
+		background-color: $Main-press-orangey-yellow;
+		border-radius: 50%;
+	  }
+	  .nav__list__item-link {
+		width: 100%;
+		height: 100%;
+		display: flex;
+	  }
+	  a:active {
+		background-color: $Main-press-orangey-yellow;
+	  }
+	}
+  }
+}
+
+.header__transparent {
+  background-color: transparent;
+}
+
+.lk__menu {
+  width: 350px;
+  margin-right: 12px;
+  box-shadow: 0 -9px 16px 0 rgba(245, 245, 255, .1);
+  background-color: $hover-white;
+  .lk__menu__heading {
+	height: 56px;
+	background-color: $Graph-clear-blue;
+	h4 {
+	  font-family: 'Lato';
+	  font-size: 16px;
+	  font-weight: 600;
+	  font-style: normal;
+	  font-stretch: normal;
+	  line-height: normal;
+	  letter-spacing: normal;
+	  text-align: center;
+	  color: $hover-white;
+	}
+  }
+  .v-input {
+	padding: 16px;
+  }
+  header {
+	padding: 16px;
+	width: 100%;
+	height: 100%;
+	font-family: "Lato";
+	font-size: 15px;
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: $Graph-clear-blue;
+  }
+  .lk__menu-actions{
+	text-align: center;
+  }
+}
+
+.lk__menu__list-item {
+  flex-shrink: 0;
+  span {
+	margin: 0 12px;
+  }
+  &:nth-child(even) {
+	background-color: $List-color;
+  }
+  a, p {
+	padding: 16px;
+	width: 100%;
+	height: 100%;
+	font-family: "Lato";
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	// text-align: center;
+	color: $Main-text-purplish-grey;
+	&:active {
+	  background-color: $Main-press-orangey-yellow;
+
+	}
+  }
+  &:hover {
+	background-color: $Graph-clear-blue !important;
+	a {
+	  color: $List-color !important;
+	}
+  }
+  .router-link-active {
+	background-color: $Main-press-orangey-yellow;
+	color: white;
+  }
+}
+
+.lk__body {
+  padding: 12px;
+  //overflow-y: auto;
+  overflow-x: auto;
+  //height: auto;
+  display: flex;
+  margin-top: 60px;
+  min-height: calc(100vh - 60px);
+
+  max-width: 1260px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.lk__mainview {
+  height: auto;
+  //height: 100%;
+  width: 100%;
+  //max-width: calc(100vw - 390px);
+  //overflow: auto;
+}
+
+#logo,
+#image_3,
+#image_2,
+#image_1,
+#video {
+  &-upload {
+	display: none;
+  }
+}
+

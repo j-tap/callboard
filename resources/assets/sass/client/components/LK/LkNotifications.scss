@@ -1,0 +1,14 @@
+.lk__notifications {
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.24);
+  background-color: $Main-pale-lilac;
+  padding: 18px 28px;
+  .notification__box {
+    .notification__box__img{
+      margin-right: 20px;
+    }
+    .notification__body {
+      padding: 20px 0;
+      border-bottom: 1px solid $input-resting;
+    }
+  }
+}

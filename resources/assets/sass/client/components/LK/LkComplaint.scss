@@ -1,0 +1,76 @@
+.complaint {
+  position: absolute;
+  display: flex;
+  z-index: 999;
+  overflow-y: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .4);
+  &-container {
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    min-width: 100%;
+  }
+  &-body {
+    padding: 60px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: $Main-pale-lilac;
+    width: 50%;
+    height: 50%;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    &__header {
+      font-family: "Lato";
+      font-size: 24px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: $Graph-clear-blue;
+    }
+    &__info {
+      h3 {
+        font-family: "Lato";
+        font-size: 15px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: $Graph-clear-blue;
+      }
+      border: 1px solid #e4e4f3;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      border-radius: 8px;
+      padding: 16px;
+    }
+    &__action {
+      button {
+        margin: 0 8px;
+      }
+    }
+  }
+  &-time {
+    font-family: "Lato";
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: $input-resting;
+  }
+
+}

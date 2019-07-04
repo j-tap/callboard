@@ -1,0 +1,25 @@
+.deal-participation {
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.08);
+  background-color: $Main-pale-lilac;
+  min-width: 920px;
+  &__form {
+    display: flex;
+    width: 65%;
+    min-width: 876px;
+    margin: 32px auto;
+    &-heading{
+      margin-bottom: 56px;
+    }
+    &-body {
+      .flex-row {
+        margin-bottom: 36px;
+      }
+    }
+  }
+  &__action {
+    margin-top: 58px;
+    button {
+      margin: 0 12px;
+    }
+  }
+}

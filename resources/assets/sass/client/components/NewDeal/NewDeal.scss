@@ -1,0 +1,150 @@
+.newdeal-body {
+  padding: 12px;
+  &__sidebar {
+    height: calc(100vh - 110px);
+    header {
+      height: 56px;
+      background-color: $Graph-clear-blue;
+      font-family: "Lato";
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: $hover-white;
+      position:relative;
+      .icon{
+        width:40px;
+        height: 40px;
+        position: absolute;
+        cursor: pointer;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 20px;
+      }
+    }
+
+    &__list {
+      background-color: $Main-pale-lilac;
+      overflow-y: auto;
+      &-item {
+        height: 50px;
+        padding: 0 16px;
+        color: $Main-text-purplish-grey;
+        p{
+          font-family: "Lato";
+          font-size: 15px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: normal;
+          letter-spacing: normal;
+        }
+        &:nth-child(even) {
+          background-color: $List-color;
+        }
+        &-icon{
+          width: 12px;
+          height: 6px;
+          margin:0 4px;
+          transform: rotate(-90deg);
+        }
+      }
+    }
+  }
+  .v-stepper {
+    width: 100%;
+    overflow-y: auto;
+  }
+}
+
+.newdeal-form {
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.08);
+  background-color: $Main-pale-lilac;
+  min-width: 920px;
+  height: calc(100vh - 110px);
+  &__box {
+    width: 80%;
+    margin: 0 auto;
+    min-width: 480px;
+    header {
+      margin: 72px 0;
+      font-family: "Lato";
+      font-size: 24px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      color: $Main-text-purplish-grey;
+    }
+    .v-menu {
+      /*width: 100%;*/
+      &--inline {
+        width: 100%;
+      }
+    }
+    .flex-row:nth-child(3) {
+      .flex-row__col {
+        width: 100%;
+        &:first-child {
+          margin-right: 40px;
+        }
+      }
+    }
+    &-requirements {
+      .v-text-field__suffix {
+        font-family: "Lato";
+        font-size: 11px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: $Graph-clear-blue;
+      }
+      .flex-row__col {
+        width: 100%;
+        margin-right: 40px;
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+      &__checkboxes {
+        margin-top: 50px;
+        .v-input--selection-controls__input {
+          height: 24px !important;
+        }
+        .flex-row__col {
+          margin-right: 64px;
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+    &-questions {
+      width: 65%;
+      margin: 0 auto;
+      .flex-row:first-child{
+        .flex-row__col{
+          padding-bottom: 8px;
+          .v-input__slot{
+            margin-bottom: 0;
+          }
+        }
+      }
+      .flex-row {
+        .flex-row__col {
+          width: 100%;
+          margin: 0 !important;
+        }
+      }
+    }
+  }
+  &__action {
+    margin-top: 106px;
+  }
+
+}

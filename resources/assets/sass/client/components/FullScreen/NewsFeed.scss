@@ -1,0 +1,195 @@
+.news-feed {
+  width: 100%;
+  margin-top: 60px;
+  height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f5f9;
+
+  &__header {
+    display: flex;
+    height: 65px;
+    background-color: #f5f5ff;
+    border-bottom: 1px solid #e4e4f3;
+    &-filter {
+      position: relative;
+      width: auto;
+      height: 100%;
+      transition: .3s;
+      cursor: pointer;
+      padding: 0 24px;
+      &__drop {
+        position: absolute;
+        z-index: 444;
+        top: 60px;
+        height: 50vh;
+        overflow-y: auto;
+        width: 100%;
+        background-color: #f6f6ff;
+        &-list {
+          display: flex;
+          flex-direction: column;
+          .tile__item {
+            height: auto;
+            width: auto;
+            flex-direction: row;
+            padding: 2px 18px;
+
+            &:hover {
+              background-color: #ebebf5;
+            }
+            &_p {
+              margin: 0 auto;
+            }
+            .tile {
+              width: 30px;
+              height: 30px;
+              margin: 0;
+              flex-shrink: 0;
+              .flex-row {
+                width: 20px;
+                height: 20px;
+              }
+            }
+          }
+          &-item {
+
+          }
+        }
+      }
+      &:hover {
+        transition: .3s;
+        background-color: rgba(26, 137, 255, .5);
+      }
+      &-box {
+        overflow-y: auto;
+        position: absolute;
+        top: 56px;
+        width: inherit;
+        height: 50vh;
+        background-color: orange;
+        &-item {
+
+        }
+      }
+      span {
+        margin-right: 10px;
+      }
+    }
+  }
+  &__body {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    &-container {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 24px;
+      padding: 40px 16px;
+      height: 100%;
+      box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.08);
+      background-color: $Main-pale-lilac;
+      &:after {
+        content: "";
+        flex: 1 1 100%;
+        max-width: 420px;
+        width: 100%;
+        margin: 0 7px 7px 0;
+      }
+    }
+  }
+}
+
+.news-box {
+  padding: 12px;
+  flex: 1 1 100%;
+  max-width: 33.333333%;
+  &:last-child {
+    justify-self: flex-start;
+  }
+  &-content {
+    border: 1px solid #e4e4f3;
+    padding: 12px;
+    height: 100%;
+    width: 100%;
+  }
+  &__img {
+    width: 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+    &-panel {
+      z-index: 10;
+      position: absolute;
+      bottom: -44px;
+      height: 44px;
+      width: 100%;
+      background-color: #2a2828;
+      transition: .3s;
+      .v-input--selection-controls .v-input__slot {
+        margin: 0;
+      }
+      .button-link {
+        padding: 7px 0;
+        width: 70px;
+        height: 30px;
+        transition: .3s;
+        box-sizing: content-box;
+        &:hover {
+          transition: .3s;
+          background-color: rgba(255, 255, 255, .1);
+        }
+      }
+    }
+    &:hover {
+      .news-box__img-panel {
+        bottom: 0;
+        transition: .3s;
+      }
+    }
+  }
+
+  &__desc-heading {
+    margin-top: 24px;
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: $Main-text-purplish-grey;
+  }
+  &-desc-body {
+    word-break: break-word;
+    margin-top: 8px;
+    font-family: "Roboto Slab";
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: $Main-text-purplish-grey;
+  }
+  &__action {
+    margin: 17px 0;
+    p {
+      font-family: "Lato";
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: $Graph-clear-blue;
+    }
+    span {
+      margin: 0 12px;
+    }
+  }
+}

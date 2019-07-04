@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="97.787" height="105.103" viewBox="0 0 97.787 105.103">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#0071bc;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:4px}
+        </style>
+    </defs>
+    <g id="package" transform="translate(2 2.069)">
+        <path id="Shape" d="M51.067.98l37.514 18.757a9.379 9.379 0 0 1 5.205 8.394V72.82a9.379 9.379 0 0 1-5.205 8.394L51.067 99.971a9.379 9.379 0 0 1-8.394 0L5.158 81.214A9.379 9.379 0 0 1 0 72.773V28.131a9.379 9.379 0 0 1 5.205-8.394L42.72.98a9.379 9.379 0 0 1 8.347 0z" class="cls-1"/>
+        <path id="Shape-2" d="M0 0l45.393 22.7L90.785 0" class="cls-1" data-name="Shape" transform="translate(1.501 23.066)"/>
+        <path id="Shape-3" d="M0 55.146V0" class="cls-1" data-name="Shape" transform="translate(46.893 45.763)"/>
+        <path id="Shape-4" d="M0 0l46.893 23.447" class="cls-1" data-name="Shape" transform="translate(23.447 10.593)"/>
+    </g>
+</svg>

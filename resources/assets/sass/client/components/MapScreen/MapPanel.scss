@@ -1,0 +1,23 @@
+.mappanel {
+    position: fixed;
+    z-index: 10;
+    right: 35px;
+    top: 50%;
+    transform: translateY(-50%);
+    .mappanel__list__item {
+        width: 50px;
+        height: 60px;
+        list-style: none;
+        background-color: #f5f5ff;
+        & button{
+          width: 100%;
+          height: 100%;
+        }
+        &:hover {
+            background-color: $Hover-navpanel-pale-grey;
+        }
+        &:nth-child(5) {
+            margin-top: 28px;
+        }
+    }
+}

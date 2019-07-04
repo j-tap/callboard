@@ -1,0 +1,26 @@
+.lk__messages {
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.24);
+  background-color: $Main-pale-lilac;
+  padding: 18px 28px;
+  .messages__box {
+    .messages__box__avatar {
+      margin-right: 20px;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .messages__body {
+      padding: 10px 0;
+      border-bottom: 1px solid $input-resting;
+    }
+    .messagex__box__actions{
+      height: 56px;
+      button,a {
+        span {
+          margin: 0 15px;
+        }
+      }
+    }
+  }
+}

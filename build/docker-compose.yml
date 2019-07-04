@@ -1,0 +1,48 @@
+version: '3'
+services:
+  nginx:
+    build:
+      context: ../
+      dockerfile: build/nginx/DockerFile
+    volumes:
+    - ../:/var/www/html
+    ports:
+    - 8000:80
+    links:
+    - php
+  php:
+    build:
+      context: ../
+      dockerfile: build/php/DockerFile
+    command: ["/bin/bash","-c","
+    cp -f /var/www/html/build/php/.env.example /var/www/html/.env;
+    composer install;
+    sleep 30;
+    php artisan migrate;
+    php artisan key:generate;
+    chmod -R 777 storage;
+    php-fpm"]
+    ports:
+    - 9000:9000
+    volumes:
+    - ../:/var/www/html
+    links:
+    - db
+  db:
+    image: mysql
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: tamtem
+      MYSQL_USER: tamtem
+      MYSQL_PASSWORD: tamtem
+    ports:
+    - 3306:3306
+  node:
+    build:
+      context: ../
+      dockerfile: build/node/DockerFile
+    entrypoint: ["/bin/bash", "-c","cd /var/www/html; npm install; npm run watch"]
+    volumes:
+    - ../:/var/www/html

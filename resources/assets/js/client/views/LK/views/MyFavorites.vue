@@ -1,0 +1,66 @@
+<template lang="pug">
+div
+	ul.row.row-small.list-unstyled(v-if='dealList && dealList.count')
+		li.col-xl-4.col-lg-6.col-md-6.mb-5(v-for='(bid, ind) in dealList.items' :key='bid.id')
+			BidCardShort(:bid='bid' :index='ind' type='favorites')
+
+	p(v-else) Вы ещё не добавили заявок в избранное
+
+	.text-center(v-if='dealList ? !!dealList.hasMore : false')
+		b-button(
+			variant='outline-primary'
+			@click='getMore'
+		) Загрузить ещe
+
+</template>
+
+<script>
+import BidCardShort from '../../GeneralComponents/components/BidCardShort'
+
+export default {
+	components: {
+		BidCardShort,
+	},
+	data() {
+		return {
+			dealList: null,
+			nextPage: 2,
+		}
+	},
+	methods: {
+		load ()
+		{
+			this.$parent.loading = true
+			axios
+			.get('/api/v1/user/favourites').then((resp) => {
+				this.dealList = resp.data.data
+			})
+			.catch((error) => {
+				this.printErrorOnConsole(error)
+			})
+			.then(() => {
+				this.$parent.loading = false
+			})
+		},
+		getMore () 
+		{
+			this.$parent.loading = true
+			axios.get('/api/v1/user/favourites?page=' + this.nextPage).then((resp) => {
+				this.dealList.items = this.dealList.items.concat(resp.data.data.items)
+				this.dealList.hasMore = resp.data.data.hasMore
+				this.$parent.loading = false
+				this.nextPage++;
+			}).catch((error) => {
+				this.$parent.loading = false
+			})
+		},
+	},
+	mounted () {
+		this.load()
+	},
+}
+</script>
+
+<style lang="scss">
+
+</style>

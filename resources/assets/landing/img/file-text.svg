@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46.409" height="57.262" viewBox="0 0 46.409 57.262">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#c1c1c1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:3px}
+        </style>
+    </defs>
+    <g id="file-text" transform="translate(1.5 1.5)">
+        <path id="Shape" d="M27.131 0H5.426A5.426 5.426 0 0 0 0 5.426v43.409a5.426 5.426 0 0 0 5.426 5.426h32.557a5.426 5.426 0 0 0 5.426-5.426V16.278z" class="cls-1"/>
+        <path id="Shape-2" d="M0 0v16.278h16.278" class="cls-1" data-name="Shape" transform="translate(27.131)"/>
+        <path id="Shape-3" d="M21.7 0H0" class="cls-1" data-name="Shape" transform="translate(10.852 29.844)"/>
+        <path id="Shape-4" d="M21.7 0H0" class="cls-1" data-name="Shape" transform="translate(10.852 40.696)"/>
+        <path id="Shape-5" d="M5.426 0H0" class="cls-1" data-name="Shape" transform="translate(10.852 18.992)"/>
+    </g>
+</svg>

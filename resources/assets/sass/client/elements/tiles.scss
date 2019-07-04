@@ -1,0 +1,55 @@
+.tile__item{
+  width: 33%;
+  height: auto;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  /* margin: 0 auto; */
+  flex-direction: column;
+  padding: 2px;
+  cursor: pointer;
+}
+.tile{
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: $border-radius;
+  transition: .2s;
+
+  svg {
+	width: 2.4rem;
+	height: 2.4rem;
+  }
+  &:hover{
+    transition: .2s;
+    // transform: scale(1.1);
+  }
+}
+.tile-panel{
+  height: 56px;
+  display: flex;
+}
+
+.tile-dodger-blue, .blue{
+  background: #1a89ff;
+}
+.tile-bright-cyan, .cyan{
+ background: #27C4FB;
+}
+.tile-dark-orange ,.orange{
+  background: #FF9E1A;
+}
+.tile-bright-yellow, .yellow{
+  background: #ffc91a;
+}
+.tile-dark-red, .red{
+  background: #ff5935;
+}
+.tile-bright-green ,.green{
+  background: #85DB4B;
+}
+.tile-grey, .grey {
+  background: #6b6767;
+}

@@ -1,0 +1,252 @@
+@import '../../base.scss';
+
+html{
+  overflow-y: auto;
+}
+p{
+  margin: 0;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+
+.v-input--switch__track{
+  border-radius: 16px;
+  height: 30px;
+  width: 50px;
+  top:calc(50% - 15px);
+}
+.v-input--switch__thumb{
+  width: 32px;
+  height: 32px;
+  top:calc(50% - 16px);
+}
+.v-input--selection-controls__input{
+  height: 30px;
+}
+.v-input--switch .v-input--selection-controls__input{
+  width: 50px;
+}
+.v-input--switch .v-input--selection-controls__ripple{
+  left: -9px;
+}
+.v-input--switch.v-input--is-dirty .v-input--selection-controls__ripple, .v-input--switch.v-input--is-dirty .v-input--switch__thumb{
+  transform: translate(22px);
+}
+
+.filter__form{
+  .v-input__slot{
+    margin:0;
+  }
+}
+.theme--dark.application{
+  color:#000;
+}
+.theme--light.application{
+	background: transparent;
+}
+.theme--light{
+  .v-expansion-panel{
+    .v-expansion-panel__container{
+      background-color: var(--Main-pale-lilac);
+    }
+  }
+}
+.infocompany__items-work-time{
+  .v-expansion-panel__header{
+    padding: 7px 14px;
+  }
+}
+
+.v-input--selection-controls{
+  margin: 0!important;
+  padding: 0!important;
+}
+.theme--dark.v-list{
+  background-color: #38beff!important;
+  .v-list__tile--link{
+    &:hover{
+      background-color: #1a89fe!important;
+    }
+  }
+}
+.v-input--switch__thumb{
+  &.theme--dark{
+    color:#fff!important;
+  }
+  &.theme--light{
+    color:#fff!important;
+  }
+}
+.v-input--switch__track{
+  opacity: 1!important;
+}
+.filter__autocomplete{
+  .v-input__append-inner{
+    display: none;
+  }
+}
+
+.v-expansion-panel{
+  box-shadow:none;
+}
+.v-expansion-panel__header{
+  padding: 0;
+}
+.v-rating{
+  .v-icon{
+    padding: 0;
+  }
+}
+
+
+.container {
+	max-width: map-get($container-max-widths, xl);
+	padding: 0 calc(#{$grid-gutter-width} / 2);
+}
+
+.v-input__slot {
+	background: $white;
+}
+.v-input--switch {
+	.v-messages__message {
+		position: absolute;
+		top: 0;
+		left: 0;
+		min-width: 20rem;
+	}
+	.v-input__slot {
+		background: none;
+	}
+	.accent--text {
+		color: $primary !important;
+		caret-color: $primary !important;
+	}
+	.v-input--switch__thumb.theme--light {
+		color: $white !important;
+	}
+}
+
+.v-input.v-text-field.v-text-field--solo {
+	.v-input__control {
+		min-height: .1rem;
+
+		.v-input__slot {
+			box-shadow: none;
+		}
+	}
+}
+.v-input.v-text-field {
+	&.v-input--is-focused {
+		.v-input__control {
+			.v-input__slot {
+				border-color: $input-focus-border-color;
+				box-shadow: $input-box-shadow, $input-focus-box-shadow;
+			}
+		}
+	}
+	.v-input__control {
+		min-height: .1rem;
+
+		.v-input__slot {
+			padding: 0;
+			border: $input-border-width solid $input-border-color;
+			border-radius: $border-radius;
+			transition: $transition-base;
+			box-shadow: none;
+			margin: 0;
+
+			&::after,
+			&::before {
+				display: none;
+			}
+
+			input {
+				font-size: $input-font-size;
+				padding: $input-padding-y $input-padding-x;
+
+				&::placeholder {
+					color: $input-placeholder-color;
+					opacity: 1;
+				}
+			}
+		}
+		.v-label {
+			padding-left: 1rem;
+			transition: $transition-base;
+
+			&--active {
+				margin-top: -.8rem;
+			}
+		}
+	}
+}
+.v-input.v-text-field:not(.v-textarea) {
+	.v-input__control {
+		.v-input__slot {
+			line-height: $input-line-height;
+			height: $input-height;
+		}
+	}
+}
+
+.v-textarea.v-text-field--enclosed.v-text-field--single-line textarea,
+.v-textarea textarea {
+	margin: 0;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	font-size: $input-font-size;
+
+	&::placeholder {
+		color: $input-placeholder-color;
+		opacity: 1;
+	}
+}
+.custom-file {
+	padding-left: 1rem;
+	padding-right: 1rem;
+
+	.custom-file-label {
+		color: $input-placeholder-color;
+	}
+}
+.v-select__selection--comma {
+	margin-left: 1rem;
+	font-size: $input-font-size;
+}
+.v-input.error--text {
+	.v-input__control {
+		.v-input__slot {
+			border-color: $danger;
+		}
+		.v-label {
+			color: $input-color !important;
+		}
+	}
+}
+.v-text-field__details {
+	display: none;
+	margin: 1rem 0 0;
+}
+.error--text .v-text-field__details {
+	display: block;
+}
+.typeahead-wrap {
+	.invalid-feedback {
+		padding-left: 1.2rem;
+		padding-right: 1.2rem;
+	}
+}
+
+.v-input--slider {
+	.v-input__slot {
+		background: none;
+	}
+}
+
+.v-text-field__prefix {
+	padding-right: 0;
+	padding-left: 4px;
+}

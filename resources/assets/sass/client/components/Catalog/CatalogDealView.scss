@@ -1,0 +1,151 @@
+.deal-view {
+  height: auto;
+  min-width: 920px;
+
+  header {
+    margin: 30px 0 20px 0;
+    font-family: "Lato";
+    font-size: 21px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: $Main-text-purplish-grey;
+  }
+  &__box {
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.08);
+    background-color: $Main-pale-lilac;
+    padding: 0 10px;
+    &-full {
+      height: 100%;
+      //max-width: calc(100vw - 390px);
+    }
+  }
+  &__heading {
+    padding: 32px 30px 0 30px;
+  }
+  &__info {
+    border-bottom: 1px solid $Graph-clear-blue;
+    padding: 20px 30px;
+    span {
+      margin-right: 16px;
+    }
+    &-item {
+      margin-right: 44px;
+    }
+  }
+  &__tags {
+    padding: 24px 30px 7px 30px;
+    &-container {
+      width: 30%;
+      position: relative;
+      &:after{
+        position: absolute;
+        content: '';
+        top: 0px;
+        right: -5px;
+        width: 30px;
+        height: 100%;
+        z-index: 5;
+        background: linear-gradient(to right,rgba(252, 252, 255, 0), rgba(252, 252, 255, 1) 100%);
+      }
+    }
+  }
+  &__date {
+    .flex-box {
+      padding-left: 30px;
+    }
+  }
+  &__desc {
+    padding: 7px 30px 44px 30px;
+  }
+  &__action {
+    margin-top: 7px;
+    margin-bottom: 48px;
+  }
+  &__members {
+
+    &-box {
+      padding: 14px 12px;
+      box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.08);
+      background-color: $Main-pale-lilac;
+      width: 324px;
+      border-radius: 3px;
+      margin: 0 12px 12px 0;
+      &__avatar {
+        margin-right: 16px;
+      }
+      p {
+        font-family: "Lato";
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: $Main-text-purplish-grey;
+
+      }
+    }
+    &-founder {
+      &__container {
+        padding: 12px;
+        margin: 12px 0;
+        border-radius: 3px;
+        box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.08);
+        background-color: $hover-white;
+        &-header {
+          padding: 6px 24px;
+          &__action {
+            span {
+              border-radius: 50%;
+              width: 40px;
+              height: 40px;
+              margin-left: 40px;
+              cursor: pointer;
+              transition: .3s;
+              &:hover {
+                transition: .3s;
+                background-color: rgba(26, 137, 254, 0.3);
+              }
+            }
+          }
+          &__avatar {
+            margin-right: 16px;
+          }
+        }
+
+        &-info {
+          margin: 10px 0;
+          border-top: 1px solid #d8d8d8;
+          padding: 14px 24px;
+          border-bottom: 1px solid #d8d8d8;
+          &-web {
+            padding-bottom: 30px;
+          }
+          &-row:nth-child(odd) {
+            background-color: rgba(191, 191, 191, 0.09);
+          }
+          &-item {
+            height: 50px;
+            width: 100%;
+          }
+          &-icon {
+            margin-right: 32px;
+          }
+        }
+        &-answers {
+          padding: 25px 50px;
+        }
+        &-action {
+          padding: 10px 0 50px 0;
+          p {
+            text-transform: none;
+            font-weight: normal;
+          }
+        }
+      }
+    }
+  }
+}

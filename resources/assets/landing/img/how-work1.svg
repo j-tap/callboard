@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="62" height="47.25" viewBox="0 0 62 47.25">
+    <defs>
+        <style>
+            .cls-1,.cls-3{fill:none}.cls-2{clip-path:url(#clip-path)}.cls-3{stroke:#0071bc;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:3px}
+        </style>
+        <clipPath id="clip-path">
+            <path d="M0 0h62v47.25H0z" class="cls-1"/>
+        </clipPath>
+    </defs>
+    <g id="arrow-left" class="cls-2">
+        <path id="Shape" d="M0 0h59" class="cls-3" transform="translate(1.5 23.625)"/>
+        <path id="Shape-2" d="M0 44.25l22.125-22.125L0 0" class="cls-3" data-name="Shape" transform="translate(38.375 1.5)"/>
+    </g>
+</svg>
